@@ -1,3 +1,11 @@
+
+@import "header";
+@import "intro";
+@import "collection";
+@import "question";
+@import "works";
+@import "footer";
+@import "container";
 .create__link {
     text-decoration: none;
     @include Fraunces();
