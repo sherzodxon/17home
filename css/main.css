@@ -152,7 +152,6 @@
 .intro__text-unit {
     padding-bottom: 120px;
     padding-top: 120px;
-    margin-left: 80px;
 }
 
 /*intro finish*/
@@ -237,7 +236,6 @@
 
 .question__menu {
     padding-top: 100px;
-    ;
     width: 540px;
     text-align: center;
     margin-left: auto;
@@ -267,7 +265,6 @@
 }
 
 .question__ques-list {
-    width: 1111px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -453,8 +450,9 @@
     text-decoration: none;
     color: rgba(131, 136, 143, 1);
 }
-.footer__item-link:hover{
-    color:rgba(254, 252, 247, 1);
+
+.footer__item-link:hover {
+    color: rgba(254, 252, 247, 1);
 }
 
 .app__list {
