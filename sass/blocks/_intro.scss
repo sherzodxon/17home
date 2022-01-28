@@ -1,0 +1,29 @@
+.intro__container {
+    background-image: url(../img/intro-background.jpg);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 600px;
+}
+
+.intro__big-text {
+    @include Fraunces();
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    color: rgba(254, 252, 247, 1);
+    width: 493px;
+}
+
+.intro__small-text {
+    @include all-small-texts();
+    text-align: left;
+    color: rgba(254, 252, 247, 1);
+    width: 440px;
+    margin-top: 32px;
+    margin-bottom: 71px;
+}
+
+.intro__text-unit {
+    padding-bottom: 120px;
+    padding-top: 80px;
+}

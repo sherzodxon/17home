@@ -1,0 +1,28 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-bottom: 33px;
+}
+
+.header__navigation {
+    width: 282px;
+}
+
+.header__list {
+    @include list-style();
+}
+
+.header__item {
+    @include all-small-texts();
+    text-align: left;
+    &:hover{
+        color: rgba(51, 61, 75, 1);
+    }
+}
+
+.header-item__link {
+    text-decoration: none;
+    color: rgba(131, 136, 143, 1);
+}

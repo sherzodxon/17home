@@ -1,0 +1,13 @@
+.create__link {
+    text-decoration: none;
+    @include Fraunces();
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 31px 16px;
+    color: rgba(254, 252, 247, 1);
+    border-radius: 5px;
+    background: $accept;
+    &:hover{
+        background-color: #66D2CF;
+    }
+}
