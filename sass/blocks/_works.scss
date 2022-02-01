@@ -19,7 +19,7 @@
     line-height: 36px;
      text-align: left;
      color: rgba(51, 61, 75, 1);
-     width: 255px;
+     max-width: 255px;
      padding-top: 110px;
  }
  
@@ -27,7 +27,7 @@
      @include all-small-texts();
      text-align: left;
      color: rgba(51, 61, 75, 1);
-     width: 285px;
+     max-width: 285px;
      margin-top: 43px;
      margin-bottom: 79px;
  }

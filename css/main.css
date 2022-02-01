@@ -399,7 +399,7 @@ template {
 }
 
 .header__navigation {
-  width: 282px;
+  width: 30%;
 }
 
 .header__list {
@@ -441,7 +441,7 @@ template {
   background-image: url(../img/intro-background.jpg);
   background-repeat: no-repeat;
   border-radius: 8px;
-  height: 600px;
+  max-width: 600px;
 }
 
 .intro__big-text {
@@ -456,7 +456,7 @@ template {
   line-height: 72px;
   text-align: left;
   color: #fefcf7;
-  width: 493px;
+  max-width: 493px;
 }
 
 .intro__small-text {
@@ -469,7 +469,7 @@ template {
   text-align: center;
   text-align: left;
   color: #fefcf7;
-  width: 440px;
+  max-width: 440px;
   margin-top: 32px;
   margin-bottom: 71px;
 }
@@ -504,8 +504,8 @@ template {
 .collection__big-title::before {
   content: '';
   display: block;
-  width: 1111px;
-  height: 106px;
+  max-width: 1111px;
+  max-height: 106px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.0001)), to(#FEFCF7));
   background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
   position: absolute;
@@ -527,7 +527,7 @@ template {
 }
 
 .collection__item {
-  width: 255px;
+  max-width: 255px;
 }
 
 .collection__item-title {
@@ -652,7 +652,7 @@ template {
 
 .question__menu {
   padding-top: 100px;
-  width: 540px;
+  max-width: 540px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -666,7 +666,7 @@ template {
   content: '';
   display: block;
   width: 100%;
-  height: 567px;
+  max-height: 567px;
   position: absolute;
   z-index: -1;
 }
@@ -715,7 +715,7 @@ template {
   line-height: 36px;
   text-align: left;
   color: #333d4b;
-  width: 255px;
+  max-width: 255px;
   padding-top: 110px;
 }
 
@@ -729,13 +729,13 @@ template {
   text-align: center;
   text-align: left;
   color: #333d4b;
-  width: 285px;
+  max-width: 285px;
   margin-top: 43px;
   margin-bottom: 79px;
 }
 
 .works__line {
-  width: 850px;
+  max-width: 850px;
   margin-top: 95px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,7 +746,7 @@ template {
 }
 
 .works__hr {
-  width: 419px;
+  max-width: 419px;
 }
 
 .list-item--two {
@@ -789,7 +789,7 @@ template {
 }
 
 .footer__nav-list {
-  width: 282px;
+  max-width: 282px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -827,7 +827,7 @@ template {
 }
 
 .app__list {
-  width: 120px;
+  max-width: 120px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -843,13 +843,13 @@ template {
 }
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .container-two {
-  width: 1111px;
+  max-width: 1111px;
   margin-left: auto;
   margin-right: auto;
 }
