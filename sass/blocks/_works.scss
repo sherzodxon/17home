@@ -33,14 +33,14 @@
  }
 
  .works__line {
-     width: 850px;
+     max-width: 850px;
      margin-top: 95px;
      display: flex;
      align-items: center;
  }
  
  .works__hr {
-     width: 419px;
+     max-width: 419px;
  }
  .list-item--two {
     background-image: url(../img/02.svg);

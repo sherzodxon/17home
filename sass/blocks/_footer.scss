@@ -18,7 +18,7 @@
 }
 
 .footer__nav-list {
-    width: 282px;
+    max-width: 282px;
     @include list-style();
 }
 
@@ -39,6 +39,6 @@
 }
 
 .app__list {
-    width: 120px;
+    max-width: 120px;
    @include list-style();
 }

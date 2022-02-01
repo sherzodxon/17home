@@ -2,7 +2,7 @@
     background-image: url(../img/intro-background.jpg);
     background-repeat: no-repeat;
     border-radius: 8px;
-    height: 600px;
+    max-width: 600px;
 }
 
 .intro__big-text {
@@ -11,14 +11,14 @@
     line-height: 72px;
     text-align: left;
     color: rgba(254, 252, 247, 1);
-    width: 493px;
+    max-width: 493px;
 }
 
 .intro__small-text {
     @include all-small-texts();
     text-align: left;
     color: rgba(254, 252, 247, 1);
-    width: 440px;
+    max-width: 440px;
     margin-top: 32px;
     margin-bottom: 71px;
 }
