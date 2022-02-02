@@ -1,0 +1,22 @@
+.commitment__container-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commitment__image{
+    border-radius: 5px;
+}
+.commitment__about{
+    max-width: 540px;
+}
+.commitment__about-title{
+    @include Fraunces();
+    text-align: left;
+    color:rgba(51, 61, 75, 1);
+    font-size: 40px;
+    line-height: 48px;
+}
+.commitment__about-text{
+    @include all-small-texts();
+    text-align: left;
+}

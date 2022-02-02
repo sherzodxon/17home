@@ -1,0 +1,42 @@
+.promise__container {
+    margin-top: 250px;
+    background-color: $black-background;
+    border-radius: 8px;
+}
+
+.promise__container-two {
+    position: relative;
+    &::after{
+        width: 445px;
+        height: 474px;
+        content: "";
+        background-image: url(../img/promise.jpg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        position: absolute;
+        right: 0;
+        top: -70px;
+        border-radius: 8px;
+    }
+}
+
+.promise__text-unit {
+    max-width: 540px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 200px
+}
+
+.promise__text-unit-title {
+    @include Fraunces();
+    text-align: left;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(254, 252, 247, 1);
+}
+
+.promise__text-unit-text {
+    @include all-small-texts();
+    color: rgba(254, 252, 247, 1);
+    text-align: left;
+}

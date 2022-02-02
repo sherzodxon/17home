@@ -1,6 +1,6 @@
 
 .footer__container {
-    background-color: rgba(51, 61, 75, 1);
+    background-color:$black-background;
     border-radius: 8px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .footer__nav-list {
-    max-width: 282px;
+    width: 282px;
     @include list-style();
 }
 
@@ -38,7 +38,7 @@
     color: rgba(254, 252, 247, 1);
 }
 
-.app__list {
-    max-width: 120px;
+.footer-app__list {
+    width: 120px;
    @include list-style();
 }
