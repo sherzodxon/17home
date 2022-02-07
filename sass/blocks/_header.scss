@@ -4,25 +4,133 @@
     justify-content: space-between;
     padding-top: 44px;
     padding-bottom: 33px;
-}
-
-.header__navigation {
-    width: 30%;
+    height: auto
 }
 
 .header__list {
     @include list-style();
+    width: 282px;
 }
 
 .header__item {
-    @include all-small-texts();
     text-align: left;
-    &:hover{
-        color: rgba(51, 61, 75, 1);
+    @include all-small-texts;
+
+    &:hover {
+        color: rgba(50, 55, 61, 1);
+    }
+}
+
+.header__item1 {
+    text-align: left;
+    @include all-small-texts;
+
+    &:hover {
+        color: rgba(50, 55, 61, 1);
+    }
+}
+
+.header__item2 {
+    text-align: left;
+    @include all-small-texts;
+
+    &:hover {
+        color: rgba(50, 55, 61, 1);
     }
 }
 
 .header-item__link {
     text-decoration: none;
     color: rgba(131, 136, 143, 1);
+}
+
+.header__list--opened {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__burger {
+    display: none;
+    border: none;
+    width: 16px;
+    height: 15px;
+    background-image: url(/img/hamburger.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    padding-right: 20px;
+}
+
+.header__burger--close {
+    display: none;
+    border: none;
+    width: 16px;
+    height: 15px;
+    background-image: url(/img/X.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+
+@media only screen and(max-width: 860px) {
+    .header__burger {
+        display: block;
+    }
+
+    .header__navigation {
+        display:none;
+    }
+    .header__navigation--block {
+        display:block;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .header__list{
+        display: block;
+    }
+
+    .header__item--active {
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-bottom: 32px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .header__item--active1 {
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-bottom: 32px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .header__item--active2 {
+        font-family: Fraunces;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-bottom: 32px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }   
+
+
 }

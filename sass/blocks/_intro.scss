@@ -34,3 +34,11 @@
     max-height: 450px;
     margin-bottom: 168px;
 }
+@media only screen and(max-width: 768px){
+    .intro__container {
+        background-image: url(../img/intro-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 8px;
+    }
+}
